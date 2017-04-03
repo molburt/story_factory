@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+.personalityContainer {
+  display: inline-block;
+  width: 600px;
+  padding-left: 10px;
+}
+
+.personalityContainer h1 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: -15px;
+}
+
+.personality {
+  display: inline-block;
+  margin-top: 20px;
+  width: 270px;
+}
+
+.personality h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.personality h3 {
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+.personality ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 2px;
+}
+
+.appearance {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.appearance img {
+  border: 2px black solid;
+  width: 270px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.appearance h1 {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 3px;
+  margin-left: 11px;
+}
+
+.appearance h2 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 11px;
+  display: inline-block;
+}

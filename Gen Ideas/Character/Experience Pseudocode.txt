@@ -1,0 +1,61 @@
+selectAge drop-down = baby, child, teen young adult, adult, elder
+
+if baby then iterations = 1
+else if child then iterations = 2
+else if teen then iterations = 3
+else if young adult then iterations = 4
+else if adult then iterations = 5
+else if elder then iterations = 6
+
+for (0, iterations, ++)
+numEvents = random 1-5
+for (0, numEvents, ++)
+events = events + experiences()
+if iteration = 1 then baby = events
+else if iteration = 2 then child = events
+else if iteration = 3 then teen = events
+else if iteration = 4 then young adult = events
+else if iteration = 5 then adult = events
+else if iteration = 6 then elder = events
+
+><><><><><
+
+experience ()
+random 1-33
+
+text =
+switch
+Fortune Reversal
+Natural or Man-Made Disaster
+Death, Seperation, Loss
+Gain Ability, Skill, Knowledge
+Relocate or Travel
+Runaway or Go Into Hiding
+Severe Injury, Disability, Disease
+Birth, Pregnancy, Adoption
+New Friend
+New Family Member
+New Romance
+New Enemy, Rival, or Tormentor
+New Mentor or Teacher
+Change in a Relationship
+Discovery, Epiphany, or Invention
+Change in the Political or Cultural Climate
+War, Uprising, Revolution
+Betrayal or Deception
+Imprisonment, Enslavement, Captivity
+Oppression or Persecution
+New Job, Home, Vehicle
+Rejection, Exclusion, Estrangement
+Acceptance or Inclusion
+Paranormal Phenomenon or Mystery
+Independence
+Criminal Activity
+Curse or Blessing
+Neglect, Abandonment, or Leaving
+Accomplishment, Success, Completion
+Mistake or Failure
+Disempowerment, Inhibition, Blockage
+Enlightenment, News, New Information
+
+return text

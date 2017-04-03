@@ -1,0 +1,109 @@
+// Check Box for Unconventional or Non-Human Global Options
+
+// Lock/Unlock Icon and Generate Just This One Icon
+
+
+if conventional
+num = random 1-2
+if num == 1 then gender = male
+else if num == 2 then gender = female
+if unconventional
+num = random 1-3
+if num == 1 then gender = male
+else if num == 2 then gender = female
+else if num == 3 then gender = other
+
+if conventional
+num = random 1-3
+if num == 1 then age = Teen
+else if num == 2 then age = Young Adult
+else if num == 3 then age = Adult
+if unconventional
+num = random 1-5
+if num == 1 then age = Child
+else if num == 2 then age = Teen
+else if num == 3 then age = Young Adult
+else if num == 4 then age = Adult
+else if num == 5 then age = Elder
+
+if conventional
+num = random 1-3
+if num == 1 then skin = Light
+else if num == 2 then skin = Medium
+else if num == 3 then skin = Dark
+if unconventional
+num = random 1-3
+if num == 1 then tone = Light
+else if num == 2 then tone = Medium
+else if num == 3 then tone = Dark
+num = random 1-10
+if num == 1 then skin = Flesh
+else if num == 2 then skin = Yellow
+else if num == 3 then skin = Green
+else if num == 4 then skin = Blue
+else if num == 5 then skin = Purple
+else if num == 6 then skin = Red
+else if num == 7 then skin = Orange
+else if num == 8 then skin = Pink
+else if num == 9 then skin = Brown
+else if num == 10 then skin = Grey
+skin = tone + skin
+
+if conventional
+num = random 1-5
+if num == 1 then eyes = Blue
+else if num == 2 then eyes = Brown
+else if num == 3 then eyes = Green
+else if num == 4 then eyes = Black
+else if num == 5 then eyes = Grey
+if unconventional
+num = random 1-13
+if num == 1 then eyes = White
+else if num == 2 then eyes = Yellow
+else if num == 3 then eyes = Green
+else if num == 4 then eyes = Blue
+else if num == 5 then eyes = Purple
+else if num == 6 then eyes = Red
+else if num == 7 then eyes = Orange
+else if num == 8 then eyes = Pink
+else if num == 9 then eyes = Brown
+else if num == 10 then eyes = Grey
+else if num == 11 then eyes = Black
+else if num == 12 then eyes = Gold
+else if num == 13 then eyes = Silver
+
+if conventional
+num = random 1-4
+if num == 1 then hair = Brown
+else if num == 2 then hair = Blonde
+else if if num == 3 then hair = Black
+else if if num == 4 then hair = Red
+if unconventional
+num = random 1-3
+if num == 1 then shade = Light
+else if num == 2 then shade = Pure
+else if num == 3 then shade = Dark
+num = random 1-13
+if num == 1 then hair = White
+else if num == 2 then hair = Blonde
+else if num == 3 then hair = Green
+else if num == 4 then hair = Blue
+else if num == 5 then hair = Purple
+else if num == 6 then hair = Red
+else if num == 7 then hair = Orange
+else if num == 8 then hair = Pink
+else if num == 9 then hair = Brown
+else if num == 10 then hair = Grey
+else if num == 11 then hair = Black
+else if num == 12 then hair = Gold
+else if num == 13 then hair = Silver
+
+num = random 1-3
+if num == 1 then height = Short
+else if num == 2 then height = Average Height
+else if num == 3 then height = Tall
+
+num = random 1-3
+if num == 1 then weight = Thin
+else if num == 2 then weight = Average Weight
+else if num == 3 then weight = Heavy

@@ -1,0 +1,42 @@
+SIMILARITY TO EARTH
+Day Length
+Year Length
+Moons
+Moon Cycles
+Gravity
+Atmosphere
+Land-to-Sea Ratio
+Notable Celestial Features
+
+GEOGRAPHICAL
+Elevation
+Slope
+Rock Type
+
+
+
+
+
+
+Land-Locked
+Sea-Side
+
+Very Wet
+Moderately Wet
+Balanced Land-to-Water
+Moderately Dry
+Very Dry
+
+
+
+Black, Gray, Brown, Beige, White, Red, Yellow
+
+if rock --> igneous, sedimentary, metamorphic
+
+Clay/Sand/Rock
+
+
+SLOPE:
+Sharp
+Moderate
+Gradual

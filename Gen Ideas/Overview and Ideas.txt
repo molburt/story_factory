@@ -1,0 +1,19 @@
+CHARACTER
+- Personality
+- Appearance
+- Experience
+
+SETTING
+- People
+- Landscape
+- Flora/Fauna
+- Climate
+- History
+- City/Kingdom/Etc Generator?
+- Area Generator?
+
+CONFLICT
+- Individual
+- Setting
+- Cultural
+(Use what's generated in CHARACTER and SETTING to produce CONFLICT)

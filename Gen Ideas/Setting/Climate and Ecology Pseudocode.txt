@@ -1,0 +1,11 @@
+Latitude
+Seasons
+Temperature
+Precipitation
+Climate Variation
+
+ECOLOGY
+Dominant Plant Type
+Minor Plant Types
+Plant Scarcity
+Dominant Animal Type
